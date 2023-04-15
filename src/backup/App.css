@@ -1,0 +1,145 @@
+.card {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#up>* {
+  margin: 5px !important;
+}
+
+p {
+  height: 90%;
+  white-space: pre-line;
+}
+
+.title {
+  color: white;
+  background-color: #4267B2;
+  height: 50px;
+  padding: 5px;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.list-container,
+#board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 90vh;
+}
+
+.item-container {
+  /* display: inline-block; */
+}
+
+.oneCard {
+  width: 80%;
+  height: 80%;
+}
+
+label>input {
+  display: none;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  width: 33px;
+  height: 33px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button span {
+  display: block;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  padding: 0;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  background: #eeeeee;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: ease .3s;
+}
+
+.button span:hover {
+  padding: 2px;
+}
+
+.input:checked {
+  box-shadow: 10px 10px grey;
+}
+
+.white .button span {
+  background: white;
+}
+
+.lightcoral .button span {
+  background: lightcoral;
+}
+
+.lightblue .button span {
+  background: lightblue;
+}
+
+.yellow .button span {
+  background: yellow;
+}
+
+#search>input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.submit {
+  border: none;
+}
+
+.share {
+  /* display: flex; */
+  /* padding: 5px !important; */
+  top: 43px !important;
+  position: absolute;
+
+}
+
+.share>* {
+  /* padding: 5px 0 0 0 !important; */
+  /* margin: 5px 0 0 0 !important; */
+  /* bottom: 0 !important; */
+}
+
+.cardTitle {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.cardText {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 90%;
+  resize: none;
+}
+
+h6 {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,20 @@
+.Zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.list-container {
+    display: flex;
+    font-size: 18px;
+    background-color: #eee;
+    flex-direction: row;
+}
+
+.item-container {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin: 15px 50px;
+}
